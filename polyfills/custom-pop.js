@@ -4,10 +4,10 @@ function customPop() {
   }
 
   const poppedElement = this[this.length - 1];
-  // this.splice(this.length-1, 1);
+  this.splice(this.length-1, 1);
 
   // another way of doing it
-  this.length = this.length - 1;
+  // this.length = this.length - 1;
 
   return poppedElement;
 }
